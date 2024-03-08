@@ -7,12 +7,12 @@ import paho.mqtt.client as mqtt
 from struct import 
 
  #--------------Config MQTT-------------------
-broker_address = 10.20.1.227
-ports = 1883
-mqtt_topic = 2706PM3133
+broker_address = {MQTT_Borker}
+ports = {MQTT_Port}
+mqtt_topic = {MQTT_Topic}
 
  #--------------Config Modbus-------------------
-mbComPort = devttyUSB0
+mbComPort = dev/ttyUSB0
 baudrate = 19200
 databit = 8 #7, 8
 parity = N #N, O, E
